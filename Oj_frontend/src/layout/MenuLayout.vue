@@ -1,7 +1,7 @@
 <template>
   <div class="menu-demo">
     <a-menu mode="horizontal" theme="dark" :default-selected-keys="['1']" class="menu">
-      <a-menu-item key="0" :style="{ padding: 0, marginRight: '38px' }" disabled>
+      <a-menu-item key="0" :style="{ padding: 0, marginRight: '0' }" disabled>
         <div>
           <img src="../assets/suda.jpg" class="collegePicture" alt="Suda Image" />
         </div>
@@ -9,10 +9,14 @@
       <a-menu-item key="1">主页</a-menu-item>
       <a-menu-item key="2">题库</a-menu-item>
       <a-menu-item key="3">讨论</a-menu-item>
-      <a-menu-item key="4">Cooperation</a-menu-item>
+      <a-menu-item key="4">浏览题目</a-menu-item>
     </a-menu>
   </div>
+  <router-view/>
 </template>
+<script setup lang="ts">
+
+</script>
 
 <style scoped>
 .menu-demo {
