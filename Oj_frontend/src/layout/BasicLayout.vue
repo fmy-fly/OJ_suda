@@ -9,7 +9,7 @@
       </a-layout-content>
       <a-layout-footer class="footer">
         <a href="https://eng.suda.edu.cn/" target="_blank">
-          苏州大学在线做题系统 by 程序员加三勺糖
+          苏州大学在线做题系统 by 加三勺糖
         </a>
       </a-layout-footer>
     </a-layout>
