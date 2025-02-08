@@ -4,9 +4,10 @@
       <a-layout-header class="header">
         <MenuLayout></MenuLayout>
       </a-layout-header>
-      <a-layout-content class="content">
-        <router-view />
-      </a-layout-content>
+      <a-layout>
+        <a-layout-content class="content"> <router-view /></a-layout-content>
+        <a-layout-sider class="sider" width="400px">Sider</a-layout-sider>
+      </a-layout>
       <a-layout-footer class="footer">
         <a href="https://eng.suda.edu.cn/" target="_blank">
           苏州大学在线做题系统 by 加三勺糖
@@ -43,4 +44,6 @@ import MenuLayout from '@/layout/MenuLayout.vue'
   right: 0;
   text-align: center;
 }
+
+
 </style>
